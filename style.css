@@ -3,3 +3,71 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.container {
+  width: 90%;
+  background-color: pink;
+  padding: 25px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px #0002;
+}
+
+h1 {
+  color: #263b68;
+  margin-bottom: 8px;
+}
+p {
+  margin-top: 20px;
+  color: #333;
+}
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  width: 70%;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4169e1;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #294db5;
+}
+
+.weather-card {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #eef4ff;
+  border-radius: 12px;
+}
+
+#temp {
+  font-size: 36px;
+  color: #4169e1;
+}
+
+#message {
+  color: #555;
+  margin-top: 18px;
+}
