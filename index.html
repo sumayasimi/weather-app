@@ -9,18 +9,19 @@
   <body>
     <div class="container">
       <h1>Weather App</h1>
-      <form>
-        <input type="text" placeholder="Enter your city" />
+      <form id="weather-form">
+        <input id="city-input" type="text" placeholder="Enter your city" />
         <button>Search</button>
       </form>
-      <p>Search for a city to see its weather</p>
+      <p id="message">Search for a city to see its weather</p>
       <div id="weather-card" class="weather-card">
-        <h2 id="city-name">Dhaka</h2>
-        <h3 id="temp">30</h3>
-        <p id="condition">Windy</p>
-        <p id="humidity">12</p>
-        <p id="wind">1641</p>
+        <h2 id="city-name"></h2>
+        <h3 id="temp"></h3>
+        <p id="condition"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
